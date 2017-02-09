@@ -420,7 +420,7 @@ body {
 
 .slider__inner-picture {
 	padding-bottom: 53px;
-	background-position: -25px -170px;
+	background: #edece6 url(../img/inner-bg.jpg) no-repeat;
 }
 
 .slider__inner-content {
