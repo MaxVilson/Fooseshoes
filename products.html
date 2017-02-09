@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="src/css/normalize.css">
+	<link rel="stylesheet" href="src/css/style.css">
+	<title>Fooshoes</title>
+</head>
+<body>
+	<header class="main-header">
+		<div class="main-header__wrapper">
+			<div class="main-header__container">
+				<h1 class="main-header__logo">
+					Fooseshoes
+					<img src="src/img/logo.png" alt="logo" width="156" height="20">
+				</h1>
+				<ul class="main-header__list-login">
+					<li class="main-header__list-login-item">
+						<a class="main-header__list-login-link  main-header__list-login-link--search" href="#">
+							Search
+							<svg class="main-header__icon-search" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use></svg>
+						</a>
+					</li>
+					<li class="main-header__list-login-item">
+						<a class="main-header__list-login-link  main-header__list-login-link--login" href="#">
+							LOGIN or REGISTER
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<nav class="main-nav">
+			<ul class="main-nav__list">
+				<li class="main-nav__item"><a href="index.html" class="main-nav__link">Home</a></li>
+				<li class="main-nav__item"><a href="products.html" class="main-nav__link  main-nav__link--active">Products</a></li>
+				<li class="main-nav__item"><a href="#" class="main-nav__link">About</a></li>
+				<li class="main-nav__item"><a href="#" class="main-nav__link">Pages</a></li>
+				<li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+				<li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
+			</ul>
+			<ul class="main-nav__cart-list">
+				<li class="main-nav__cart-item">
+					<svg class="main-nav__icon-star" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+					<a href="#" class="main-nav__cart-link  main-nav__cart-link--star">30</a>
+				</li>
+				<li class="main-nav__cart-item">
+					<svg class="main-nav__icon-cart" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cart"></use></svg>
+					<a href="#" class="main-nav__cart-link  main-nav__cart-link--cart">0</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="slider">
+			<div class="slider__picture  slider__inner-picture">
+				<div class="slider__container">
+					<div class="slider__content slider__inner-content">
+						<div class="slider__price  slider__inner-price">$145,99</div>
+						<h2 class="slider__title  slider__inner-title">Pink Shoes 2013 Collection</h2>
+						<p class="slider__text">
+							Nunc non fermentum nunc. Sed ut ante 
+							eget leo tempor consequat sit amet eu orci. 
+							Donec dignissim dolor eget..
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main-page">
+		<div class="filter">
+			<div class="container">
+				<div class="filter__wrapper">
+					<div class="filter__title">Shop by</div>
+					<ul class="filter__list">
+						<li class="filter__item"><a href="#" class="filter__link">Brands</a></li>
+						<li class="filter__item"><a href="#" class="filter__link">Categories</a></li>
+						<li class="filter__item"><a href="#" class="filter__link">Price</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="products  products-inner">
+			<div class="products__wrapper-title">
+				<div class="products__wrapper-title-inner">
+					<h2 class="products__title">All Products</h2>
+					<ul class="breadcrumbs">
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Home</a>
+						</li>
+						<li class="breadcrumbs__item">></li>
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link">All products</a>
+						</li>	
+					</ul>
+				</div>
+				<div class="products__wrapper-title-inner">
+					<div class="products__view">
+						<div class="products__view-title">View as</div>
+						<a href="#" class="products__view-item  products__view-item--active">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#view1"></use></svg>
+						</a>
+						<a href="#" class="products__view-item">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#view2"></use></svg>
+						</a>
+						<a href="#" class="products__view-item  products__view-item--big">
+							Sort alphabetically
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#select-icon"></use></svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="products__wrapper">
+				<article class="products-item  products-item1">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Even&Odd</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item2">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Even&Odd</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item3">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Buffalo Decollete</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section class="products  products-inner">
+			<div class="products__wrapper">
+				<article class="products-item  products-item4">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Buffalo Decollete</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item5">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Even&Odd</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item6">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Buffalo Decollete</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+		<section class="products">
+			<div class="products__wrapper">
+				<article class="products-item  products-item1">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Even&Odd</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item2">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Even&Odd</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+				<article class="products-item  products-item3">
+					<div class="products__wrapper-item">
+						<div class="products__price">$145,99</div>
+						<h3 class="products__name">Buffalo Decollete</h3>
+						<ul class="products__list">
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в просмотренные
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eye"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в закладки
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Поделиться
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg>
+								</a>
+							</li>
+							<li class="products__item">
+								<a href="#" class="products__link">
+									Добавить в корзину
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.031" viewBox="0 0 16 15.031"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cartbye"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</article>
+			</div>
+		</section>
+		<div class="blog  blog-inner">
+			<div class="blog__wrapper">
+				<article class="blog-item">
+					<h2 class="blog-item__title">Free shipping</h2>
+					<p class="blog-item__text">
+						Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, 
+					</p>
+				</article>
+				<article class="blog-item">
+					<h2 class="blog-item__title">Testimonials</h2>
+					<p class="blog-item__text">
+						vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]</p>
+						<div class="blog-item__auhor">- John Doe -</div>
+					</article>
+					<article class="blog-item  blog-news">
+						<h2 class="blog-item__title">Blog news</h2>
+						<ul class="blog-news__list">
+							<li class="blog-news__item">
+								<div class="blog-news__date">
+									Apr 
+									<span class="blog-news__date-number">01</span>
+								</div>
+								<div class="blog-news__item-wrapper">
+									<h3 class="blog-news__item-title"><a href="#" class="blog-news__item-link">Nice & clean. The best for you blog!</a></h3>
+									<p class="blog-news__item-text">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</p>
+								</div>
+							</li>
+							<li class="blog-news__item">
+								<div class="blog-news__date">
+									Apr 
+									<span class="blog-news__date-number">01</span>
+								</div>
+								<div class="blog-news__item-wrapper">
+									<h3 class="blog-news__item-title"><a href="#" class="blog-news__item-link">What an Ecommerce theme!</a></h3>
+									<p class="blog-news__item-text">Vulputate vel nibh. Class aptent taciti siciosqu ad litora</p>
+								</div>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</main>
+		<footer class="main-footer">
+			<div class="widgets">
+				<div class="widgets-wrapper">
+					<article class="widget">
+						<h2 class="widget__title">Text widget</h2>
+						<p class="widget__text">
+							Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+						</p>
+					</article>
+					<article class="widget  widget-twitter">
+						<h2 class="widget__title">Twitter widget</h2>
+						<ul class="widget-twitter__list">
+							<li class="widget-twitter__item">
+								<p class="widget__text">
+									<a href="#" class="widget-twitter__link">@ericafustero</a>
+									Why thank you. Your work looks awesome by the way!
+									<a href="#" class="widget-twitter__link">@treemelody</a>
+								</p>
+								<div class="widget-twitter__date">19 days ago</div>
+							</li>
+							<li class="widget-twitter__item">
+								<p class="widget__text">
+									<a href="#" class="widget-twitter__link">@roymarvelous</a>
+									You can seek a refund through TF if it is not as advertised - but it is :)
+								</p>
+								<div class="widget-twitter__date">21 days ago</div>
+							</li>
+						</ul>
+					</article>
+					<article class="widget  widget-flickr">
+						<h2 class="widget__title">Flickr widget</h2>
+						<ul class="widget-flickr__images">
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr1.jpg" alt="photo">
+								</a>
+							</li>
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr2.jpg" alt="photo">
+								</a>
+							</li>
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr3.jpg" alt="photo">
+								</a>
+							</li>
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr4.jpg" alt="photo">
+								</a>
+							</li>
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr5.jpg" alt="photo">
+								</a>
+							</li>
+							<li class="widget-flickr__image">
+								<a href="#" class="widget-flickr__link">
+									<img src="src/img/flickr6.jpg" alt="photo">
+								</a>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+			<div class="main-footer__wrapper">
+				<form class="main-footer__subscribe" action="a.php" method="post">
+					<input type="text" placeholder="Enter email for newsletter">
+					<div class="main-footer__input-submit">
+						<input type="submit" value="Send" class="main-footer__subscribe-btn">
+					</div>
+				</form>
+				<ul class="main-footer__social">
+					<li class="main-footer__social-item">
+						<a href="#" class="main-footer__social-link">
+							Facebook
+							<svg xmlns="http://www.w3.org/2000/svg" width="9" height="19.19" viewBox="0 0 9 19.19"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg>
+						</a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#" class="main-footer__social-link">
+							Twitter
+							<svg xmlns="http://www.w3.org/2000/svg" width="19.188" height="15.9" viewBox="0 0 19.188 15.9"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg>
+						</a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#" class="main-footer__social-link">
+							Google +
+							<svg xmlns="http://www.w3.org/2000/svg" width="19.18" height="16.28" viewBox="0 0 19.18 16.28"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#goo"></use></svg>
+						</a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#" class="main-footer__social-link">
+							Linkdin
+							<svg xmlns="http://www.w3.org/2000/svg" width="17.97" height="18.59" viewBox="0 0 17.97 18.59"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#leakedin"></use></svg>
+						</a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#" class="main-footer__social-link">
+							Flickr
+							<svg xmlns="http://www.w3.org/2000/svg" width="19.21" height="7.82" viewBox="0 0 19.21 7.82"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#flickr"></use></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="main-footer__copyright">
+				<div class="main-footer__copyright-container">
+					<p class="main-footer__copyright-text">
+						Copyright © Fooseshoes 2013. 
+						Designed by EnzoLiVolti. 
+					</p>
+					<ul class="main-footer__copyright-list">
+						<li class="main-footer__copyright-item">
+							<a href="#" class="main-footer__copyright-link">Home /</a>
+						</li>
+						<li class="main-footer__copyright-item">
+							<a href="#" class="main-footer__copyright-link">Support /</a>
+						</li>
+						<li class="main-footer__copyright-item">
+							<a href="#" class="main-footer__copyright-link">Terms and Conditions /</a>
+						</li>
+						<li class="main-footer__copyright-item">
+							<a href="#" class="main-footer__copyright-link">Faqs /</a>
+						</li>
+						<li class="main-footer__copyright-item">
+							<a href="#" class="main-footer__copyright-link">Contact us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<script src="src/js/script.js"></script>
+	</body>
