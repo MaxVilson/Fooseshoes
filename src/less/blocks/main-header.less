@@ -1,0 +1,53 @@
+.main-header__wrapper {
+	background: @color-lightBlack;
+}
+.main-header__container {
+	.container();
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-header__logo {
+	margin-top: 15px;	
+	font-size: 0;
+	line-height: 25px;
+}
+.main-header__list-login {
+	display: flex;
+	margin: 0;
+	margin-top: 15px;
+	padding: 0;
+	list-style: none;
+}
+.main-header__list-login-link {
+	font-size: 11px;
+	color: #7e7e7e;
+	text-decoration: none;
+}
+.main-header__list-login-link--login {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 23px;
+	padding-right: 20px;
+	border-right: 1px solid rgba(255, 255, 255, .35);
+	border-left: 1px solid rgba(255, 255, 255, .35);
+
+	&:hover {
+		color: #fff;
+	}
+}
+.main-header__list-login-link--search {
+	margin-right: 22px;
+	font-size: 0;
+}
+.main-header__icon-search {
+	width: 14px;
+	height: 14px;
+	margin-top: 3px;
+	fill: #7e7e7e;
+
+	&:hover {
+		fill: #fff;
+	}
+}
+
